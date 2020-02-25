@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.geoquizz.MainActivity">
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_weight="0.08"
+        android:gravity="top" />
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="168dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.08"
+        android:gravity="center_vertical|center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/bouton_vrai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_vrai"/>
+    <Button
+        android:id="@+id/bouton_faux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_faux"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/bouton_aide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:text="@string/bouton_affiche_aide"/>
+    <Button
+        android:id="@+id/bouton_suivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_right"
+        android:drawablePadding="4dp"
+        android:text="@string/bouton_suivant"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+    <Button
+        android:id="@+id/bouton_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_restart"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+</LinearLayout>
